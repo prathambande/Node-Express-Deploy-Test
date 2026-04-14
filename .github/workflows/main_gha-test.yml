@@ -36,4 +36,5 @@ jobs:
           app-name: 'GHA-test'
           package: .
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
+          clean: true
           
